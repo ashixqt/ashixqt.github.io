@@ -9,25 +9,46 @@
                 font-size: 18;
                 color: #44002a;
                 background-color: #fdf1f8;
-                margin: 20px auto;
+                margin: 60px auto;
                 max-width: 600px;
+            }
+            a {
+                color: #44002a;
             }
             h1, h2, h3 {
                 font-family: Courgette;
             }
+            hr {
+                border-color: #44002a;
+                margin: auto 19px;
+            }
             @media (prefers-color-scheme: dark) {
-                body {
+                body, a {
                     color: #f5d6e9;
                     background-color: #29031a;
+                }
+                hr {
+                    border-color: #fdf0f8;
                 }
             }
          </style>
     </head>
     <body>
-        <img src="https://avatars.githubusercontent.com/u/87587245?v=4" style="width:200px;border-radius:20px;" />
-        <h1>Hi, I'm Ashleigh</h1>
-        <p><em>21 years old ♦ she/her ♦ bisexual</em></p>
-        <p><strong>This website contains NSFW themes. Proceed with caution.</strong></p>
-        <hr>
+        <div id="header">
+            <img src="https://avatars.githubusercontent.com/u/87587245?v=4" style="width:200px;border-radius:20px;display:block;margin:0 auto;" />
+            <h1 style="text-align:center">Hi, I'm Ashleigh</h1>
+            <p style="text-align:center"><em>21 years old ♦ she/her ♦ bisexual</em></p>
+            <p style="text-align:center"><strong>This website contains NSFW themes. Proceed with caution.</strong></p>
+            <hr>
+        </div>
+        <div id="content">
+            <h2>About me</h1>
+            <p>I'm just some random girl that probably exists.</p>
+            <p>I like giantess stuff as well as high heels and boots (boots especially).</p>
+            <p>Sometimes I code in Ruby. My code editor is Visual Studio Code.</p>
+            <p>My Twitter is <a href=https://twitter.com/ashixqt>@ashixqt</a>.</p>
+            <h2>Stuff I've done</h2>
+            <p>Nothing. Well, maybe except this website.</p>
+        </div>
     </body>
 </html>
