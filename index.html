@@ -3,7 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>GTS-Ashie-Violet</title>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Space+Mono:ital,wght@0,700;1,400;1,700&display=swap');
             body {
                 font-family: "Mulish";
                 font-size: 18;
@@ -17,6 +17,9 @@
             }
             h1, h2, h3 {
                 font-family: Courgette;
+            }
+            code, pre, #code-block {
+                font-family: "Space Mono";
             }
             hr {
                 border-color: #44002a;
@@ -32,6 +35,20 @@
                 width: 48%;
                 padding: 3% 0;
             }
+            @media (max-width: 795px)
+            {
+                body {
+                    padding: 0 15px;
+                }
+                #content {
+                    float: none;
+                    width: 100%;
+                }
+                #images {
+                    float: none; 
+                    width: 100%;
+                }
+            }
             #images img, iframe {
                 border: 3px dashed #f5d6e9;
                 width: 100%;
@@ -44,14 +61,22 @@
                 display: block;
                 margin: 0 auto;
             }
-            @media (prefers-color-scheme: dark) {
-                body, a {
-                    color: #f5d6e9;
-                    background-color: #29031a;
-                }
-                hr {
-                    border-color: #fdf0f8;
-                }
+            #code-block {
+                color: #a7658d;
+                background-color: #f8e5f0;
+                border-radius: 5px;
+                font-size: 12pt;
+                padding: 0.03px 10px;
+            }
+            #button {
+                color: #a7658d;
+                background-color: #f8e5f0;
+                text-align: center;
+                padding: auto;
+                border-radius: 5px;
+                width: 100%;
+                margin: 5px 0;
+                padding: 15px 0;
             }
          </style>
     </head>
@@ -69,6 +94,22 @@
             <p>I like giantess stuff as well as high heels and boots (boots especially).</p>
             <p>Sometimes I code in Ruby. My code editor is Visual Studio Code.</p>
             <p>My Twitter is <a href=https://twitter.com/ashixqt>@ashixqt</a>.</p>
+            <div id="code-block">
+                <code>
+<pre>#!/usr/bin/ruby
+
+def StepOn(target, shoe)
+    if target.size <= crushable
+        underfoot.crush(target)
+    else
+        underfoot.trample(target)
+    end
+end
+
+StepOn(site.viewer, boot.highheel)</pre>
+                    </code>
+            </div>
+            <a href="https://www.youtube.com/watch?v=U7QnLLHRLHM"><div id="button">Run code</div></a>
         </div>
         <div id="images">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mEsx8f9Gebo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
