@@ -10,7 +10,7 @@
                 color: #44002a;
                 background-color: #fdf1f8;
                 margin: 60px auto;
-                max-width: 600px;
+                max-width: 750px;
             }
             a {
                 color: #44002a;
@@ -21,6 +21,26 @@
             hr {
                 border-color: #44002a;
                 margin: auto 19px;
+            }
+            #content {
+                float: left;
+                width: 48%;
+                padding: 3% 0;
+            }
+            #images {
+                float: right; 
+                width: 48%;
+                padding: 3% 0;
+            }
+            #images img {
+                border: 3px dashed #f5d6e9;
+            }
+            #header img {
+                width: 200px;
+                border: 3px dotted #f5d6e9;
+                border-radius: 20px;
+                display: block;
+                margin: 0 auto;
             }
             @media (prefers-color-scheme: dark) {
                 body, a {
@@ -35,7 +55,7 @@
     </head>
     <body>
         <div id="header">
-            <img src="https://avatars.githubusercontent.com/u/87587245?v=4" style="width:200px;border-radius:20px;display:block;margin:0 auto;" />
+            <img src="https://avatars.githubusercontent.com/u/87587245?v=4">
             <h1 style="text-align:center">Hi, I'm Ashleigh</h1>
             <p style="text-align:center"><em>22 years old ♦ she/her ♦ bisexual</em></p>
             <p style="text-align:center"><strong>This website contains NSFW themes. Proceed with caution.</strong></p>
@@ -47,8 +67,9 @@
             <p>I like giantess stuff as well as high heels and boots (boots especially).</p>
             <p>Sometimes I code in Ruby. My code editor is Visual Studio Code.</p>
             <p>My Twitter is <a href=https://twitter.com/ashixqt>@ashixqt</a>.</p>
-            <h2>Stuff I've done</h2>
-            <p>Nothing. Well, maybe except this website.</p>
+        </div>
+        <div id="images">
+            <img src="boots.gif">
         </div>
     </body>
 </html>
